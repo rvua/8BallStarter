@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="title">All of life's answers at your fingertips!</h1>
+    <!-- Image of the magic 8 ball -->
+    <img src="./ballStill.jpg" alt="ball" id="ballImg">
+    <div class="input-section">
+        <!-- Input field for our question (3rd important, need to ask a question)-->
+        <input type="text" name="question" id="question">
+         <!-- Button: onclick we get a response (also important, this triggers the response)--> 
+        <button onclick="answer()">Get Answer</button>
+    </div>
+    <!-- Response Section (most important, we need a response!) -->
+    <h2 id="response"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
